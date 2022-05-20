@@ -10,7 +10,7 @@ public class AppTest {
 	@Test
 	public void Login1() {
 		App myApp = new App();
-		Assert.assertEquals(0, myApp.userLogin("abc", "abc123"));
+		Assert.assertEquals(0, myApp.userLogin("abcd", "abc123"));
 	}
 	@Test
 	public void Login2() {
